@@ -9,9 +9,15 @@ export default function Language() {
   const navigate = useNavigate();
   const { lang } = useParams();
   const { i18n, t } = useTranslation();
-  const locales = i18n.options.supportedLngs.filter(item => item !== 'cimode')
-  const defaultLang = i18n.options.fallbackLng[0];
-
+  const locales = Array.isArray(i18n.options.supportedLngs)
+  ? i18n.options.supportedLngs.filter((item) => item !== "cimode")
+  : [];
+  const defaultLang =
+    typeof i18n.options.fallbackLng === "string"
+      ? i18n.options.fallbackLng
+      : Array.isArray(i18n.options.fallbackLng)
+      ? i18n.options.fallbackLng[0]
+      : "en";
 
   const handleLocaleChange = (localeName: string) => {
     if (localeName === lang) return;

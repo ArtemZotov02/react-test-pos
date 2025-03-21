@@ -1,0 +1,320 @@
+{
+  "home": [
+    {
+      "lang": "en",
+      "header": {
+        "menu": [
+          {
+            "title": "Home",
+            "link": "/"
+          },
+          {
+            "title": "Orders",
+            "link": "/orders"
+          }
+        ],
+        "currency": ["USD", "UAH", "EUR"]
+      },
+      "profile": {
+        "logout": "Logout"
+      }
+    },
+    {
+      "lang": "ua",
+      "header": {
+        "menu": [
+          {
+            "title": "Головна",
+            "link": "/"
+          },
+          {
+            "title": "Ордери",
+            "link": "/orders"
+          }
+        ],
+        "currency": ["USD", "UAH", "EUR"]
+      },
+      "profile": {
+        "logout": "Вийти"
+      }
+    }
+  ],
+  "orders": [
+    {
+      "lang": "en",
+      "header": {
+        "menu": [
+          {
+            "title": "Home",
+            "link": "/"
+          },
+          {
+            "title": "Orders",
+            "link": "/orders"
+          }
+        ],
+        "currency": ["USD", "UAH", "EUR"]
+      },
+      "title": "Orders",
+      "allOrders": [
+        {
+          "transactionId": {
+            "title": "Transaction ID",
+            "text": "#15325"
+          },
+          "date": {
+            "title": "Date",
+            "text": "12.06.2024"
+          },
+
+          "status": {
+            "title": "Status",
+            "text": true
+          },
+          "gameName": {
+            "title": "Game Name",
+            "text": "Ernardd"
+          },
+
+          "gameId": {
+            "title": "Game ID",
+            "text": "1242314512"
+          },
+          "ammount": {
+            "title": "Ammount",
+            "text": "$153,26"
+          }
+        },
+        {
+          "transactionId": {
+            "title": "Transaction ID",
+            "text": "#15311"
+          },
+          "date": {
+            "title": "Date",
+            "text": "12.06.2024"
+          },
+
+          "status": {
+            "title": "Status",
+            "text": false
+          },
+          "gameName": {
+            "title": "Game Name",
+            "text": "Ernardd"
+          },
+
+          "gameId": {
+            "title": "Game ID",
+            "text": "1242314512"
+          },
+          "ammount": {
+            "title": "Ammount",
+            "text": "$153,26"
+          }
+        },
+        {
+          "transactionId": {
+            "title": "Transaction ID",
+            "text": "#22424"
+          },
+          "date": {
+            "title": "Date",
+            "text": "12.06.2024"
+          },
+
+          "status": {
+            "title": "Status",
+            "text": true
+          },
+          "gameName": {
+            "title": "Game Name",
+            "text": "Ernardd"
+          },
+
+          "gameId": {
+            "title": "Game ID",
+            "text": "1242314512"
+          },
+          "ammount": {
+            "title": "Ammount",
+            "text": "$153,26"
+          }
+        },
+        {
+          "transactionId": {
+            "title": "Transaction ID",
+            "text": "#45256"
+          },
+          "date": {
+            "title": "Date",
+            "text": "12.06.2024"
+          },
+
+          "status": {
+            "title": "Status",
+            "text": false
+          },
+          "gameName": {
+            "title": "Game Name",
+            "text": "Ernardd"
+          },
+
+          "gameId": {
+            "title": "Game ID",
+            "text": "1242314512"
+          },
+          "ammount": {
+            "title": "Ammount",
+            "text": "$153,26"
+          }
+        }
+      ]
+    },
+    {
+      "lang": "ua",
+      "header": {
+        "menu": [
+          {
+            "title": "Головна",
+            "link": "/"
+          },
+          {
+            "title": "Замовлення",
+            "link": "/orders"
+          }
+        ],
+        "currency": ["USD", "UAH", "EUR"]
+      },
+      "title": "Замовлення",
+      "allOrders": [
+        {
+          "transactionId": {
+            "title": "Номер транзакції",
+            "text": "#15325"
+          },
+          "date": {
+            "title": "Дата",
+            "text": "12.06.2024"
+          },
+
+          "status": {
+            "title": "Статус",
+            "text": true
+          },
+          "gameName": {
+            "title": "Назва гри",
+            "text": "Ernardd"
+          },
+
+          "gameId": {
+            "title": "Номер гри",
+            "text": "1242314512"
+          },
+          "ammount": {
+            "title": "Сума",
+            "text": "$153,26"
+          }
+        },
+        {
+          "transactionId": {
+            "title": "Номер транзакції",
+            "text": "#15311"
+          },
+          "date": {
+            "title": "Дата",
+            "text": "12.06.2024"
+          },
+
+          "status": {
+            "title": "Статус",
+            "text": false
+          },
+          "gameName": {
+            "title": "Назва гри",
+            "text": "Ernardd"
+          },
+
+          "gameId": {
+            "title": "Номер гри",
+            "text": "1242314512"
+          },
+          "ammount": {
+            "title": "Сума",
+            "text": "$153,26"
+          }
+        },
+        {
+          "transactionId": {
+            "title": "Номер транзакції",
+            "text": "#22424"
+          },
+          "date": {
+            "title": "Дата",
+            "text": "12.06.2024"
+          },
+
+          "status": {
+            "title": "Статус",
+            "text": true
+          },
+          "gameName": {
+            "title": "Назва гри",
+            "text": "Ernardd"
+          },
+
+          "gameId": {
+            "title": "Номер гри",
+            "text": "1242314512"
+          },
+          "ammount": {
+            "title": "Сума",
+            "text": "$153,26"
+          }
+        },
+        {
+          "transactionId": {
+            "title": "Номер транзакції",
+            "text": "#45256"
+          },
+          "date": {
+            "title": "Дата",
+            "text": "12.06.2024"
+          },
+
+          "status": {
+            "title": "Статус",
+            "text": false
+          },
+          "gameName": {
+            "title": "Назва гри",
+            "text": "Ernardd"
+          },
+
+          "gameId": {
+            "title": "Номер гри",
+            "text": "1242314512"
+          },
+          "ammount": {
+            "title": "Сума",
+            "text": "$153,26"
+          }
+        }
+      ]
+    }
+  ],
+  "users": [
+    {
+      "id": "e25f",
+      "username": "admin",
+      "email": "artemzotov7@gmail.com",
+      "password": "Basic YWRtaW46MTIz"
+    },
+    {
+      "id": "92d0",
+      "username": "dadada",
+      "email": "artemzotov7@gmail.com",
+      "password": "Basic ZGFkYWRhOjEyMw=="
+    }
+  ]
+}

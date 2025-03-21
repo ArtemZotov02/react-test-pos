@@ -1,0 +1,28 @@
+{
+  "ua": "UA",
+  "en": "EN",
+  "auth": {
+    "authMethods": ["Login", "Registration"],
+    "authBtns": {
+      "login": "Login",
+      "registration": "Registration"
+    },
+    "authPlaceholders": {
+      "username": "Enter your login",
+      "email": "Enter email",
+      "password": "Eneter password"
+    },
+    "authError": {
+      "allForm": {
+        "userNotFound": "User not found",
+        "wrongPass": "Wrong password",
+        "userRegistered": "A user with this name is already registered."
+      },
+      "fields": {
+        "login": "Please enter a login",
+        "email": "Please enter a valid email adress",
+        "pass": "Please enter a password"
+      }
+    }
+  }
+}

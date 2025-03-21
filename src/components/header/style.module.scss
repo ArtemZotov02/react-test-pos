@@ -1,0 +1,42 @@
+.headerSection {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #FFFFFF0A;
+  height: 52px;
+  display: flex;
+  z-index: 2;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 12px;
+}
+
+.logo {
+  width: 80px;
+  height: 36px;
+  border-radius: 24px;
+  background-color: #FFFFFF;
+  opacity: 0.2;
+}
+
+.nav {
+  display: flex;
+  li + li {
+    margin-left: 30px;
+  }
+  a {
+    color: white;
+  }
+}
+
+
+.switches {
+  display: flex;
+}

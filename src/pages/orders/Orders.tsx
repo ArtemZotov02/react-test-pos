@@ -10,7 +10,8 @@ export default function Orders() {
   const { i18n } = useTranslation();
 
   useEffect(() => {
-    fetch(`http://localhost:5001/orders?lang=${i18n.language}`)
+    // fetch(`http://localhost:5001/orders?lang=${i18n.language}`)
+    fetch(`https://my-json-server.typicode.com/ArtemZotov02/db/orders?lang=${i18n.language}`)
       .then((res) => res.json())
       .then((data) => setData(data[0]));
   }, [i18n.language]);

@@ -14,7 +14,8 @@ export default function Profile({ user, setAuthUser, data }:ProfileProps) {
   };
 
   useEffect(() => {
-    fetch(`http://localhost:5001/users?username=${user}`)
+    // fetch(`http://localhost:5001/users?username=${user}`)
+    fetch(`https://my-json-server.typicode.com/ArtemZotov02/db/users?username=${user}`)
       .then((res) => res.json())
       .then((data) => setUserInfo(data[0]))
       .catch((e) => console.log(e));

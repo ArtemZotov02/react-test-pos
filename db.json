@@ -13,7 +13,11 @@
             "link": "/orders"
           }
         ],
-        "currency": ["USD", "UAH", "EUR"]
+        "currency": [
+          "USD",
+          "UAH",
+          "EUR"
+        ]
       },
       "profile": {
         "logout": "Logout"
@@ -32,7 +36,11 @@
             "link": "/orders"
           }
         ],
-        "currency": ["USD", "UAH", "EUR"]
+        "currency": [
+          "USD",
+          "UAH",
+          "EUR"
+        ]
       },
       "profile": {
         "logout": "Вийти"
@@ -53,7 +61,11 @@
             "link": "/orders"
           }
         ],
-        "currency": ["USD", "UAH", "EUR"]
+        "currency": [
+          "USD",
+          "UAH",
+          "EUR"
+        ]
       },
       "title": "Orders",
       "allOrders": [
@@ -66,7 +78,6 @@
             "title": "Date",
             "text": "12.06.2024"
           },
-
           "status": {
             "title": "Status",
             "text": true
@@ -75,7 +86,6 @@
             "title": "Game Name",
             "text": "Ernardd"
           },
-
           "gameId": {
             "title": "Game ID",
             "text": "1242314512"
@@ -94,7 +104,6 @@
             "title": "Date",
             "text": "12.06.2024"
           },
-
           "status": {
             "title": "Status",
             "text": false
@@ -103,7 +112,6 @@
             "title": "Game Name",
             "text": "Ernardd"
           },
-
           "gameId": {
             "title": "Game ID",
             "text": "1242314512"
@@ -122,7 +130,6 @@
             "title": "Date",
             "text": "12.06.2024"
           },
-
           "status": {
             "title": "Status",
             "text": true
@@ -131,7 +138,6 @@
             "title": "Game Name",
             "text": "Ernardd"
           },
-
           "gameId": {
             "title": "Game ID",
             "text": "1242314512"
@@ -150,7 +156,6 @@
             "title": "Date",
             "text": "12.06.2024"
           },
-
           "status": {
             "title": "Status",
             "text": false
@@ -159,7 +164,6 @@
             "title": "Game Name",
             "text": "Ernardd"
           },
-
           "gameId": {
             "title": "Game ID",
             "text": "1242314512"
@@ -184,7 +188,11 @@
             "link": "/orders"
           }
         ],
-        "currency": ["USD", "UAH", "EUR"]
+        "currency": [
+          "USD",
+          "UAH",
+          "EUR"
+        ]
       },
       "title": "Замовлення",
       "allOrders": [
@@ -197,7 +205,6 @@
             "title": "Дата",
             "text": "12.06.2024"
           },
-
           "status": {
             "title": "Статус",
             "text": true
@@ -206,7 +213,6 @@
             "title": "Назва гри",
             "text": "Ernardd"
           },
-
           "gameId": {
             "title": "Номер гри",
             "text": "1242314512"
@@ -225,7 +231,6 @@
             "title": "Дата",
             "text": "12.06.2024"
           },
-
           "status": {
             "title": "Статус",
             "text": false
@@ -234,7 +239,6 @@
             "title": "Назва гри",
             "text": "Ernardd"
           },
-
           "gameId": {
             "title": "Номер гри",
             "text": "1242314512"
@@ -253,7 +257,6 @@
             "title": "Дата",
             "text": "12.06.2024"
           },
-
           "status": {
             "title": "Статус",
             "text": true
@@ -262,7 +265,6 @@
             "title": "Назва гри",
             "text": "Ernardd"
           },
-
           "gameId": {
             "title": "Номер гри",
             "text": "1242314512"
@@ -281,7 +283,6 @@
             "title": "Дата",
             "text": "12.06.2024"
           },
-
           "status": {
             "title": "Статус",
             "text": false
@@ -290,7 +291,6 @@
             "title": "Назва гри",
             "text": "Ernardd"
           },
-
           "gameId": {
             "title": "Номер гри",
             "text": "1242314512"
@@ -315,6 +315,12 @@
       "username": "dadada",
       "email": "artemzotov7@gmail.com",
       "password": "Basic ZGFkYWRhOjEyMw=="
+    },
+    {
+      "id": "8802",
+      "username": "admin1",
+      "email": "artemzotov7@gmail.com",
+      "password": "Basic YWRtaW4xOjEyMw=="
     }
   ]
 }

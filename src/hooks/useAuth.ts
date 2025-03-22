@@ -14,7 +14,7 @@ export const useAuth = () => {
 
     try {
       const response = await fetch(
-        `http://localhost:5001/users?username=${data.username}`
+        `https://my-json-server.typicode.com/ArtemZotov02/db/users?username=${data.username}`
       );
       const responseData = await response.json();
 
@@ -39,7 +39,8 @@ export const useAuth = () => {
     const authHeader = "Basic " + btoa(`${data.username}:${data.password}`);
 
     const existingUserResponse = await fetch(
-      `http://localhost:5001/users?username=${data.username}`
+      // `http://localhost:5001/users?username=${data.username}`
+      `https://my-json-server.typicode.com/ArtemZotov02/db/users?username=${data.username}`
     );
     const existingUsers = await existingUserResponse.json();
 
@@ -49,7 +50,8 @@ export const useAuth = () => {
     }
 
     try {
-      const response = await fetch("http://localhost:5001/users", {
+      // const response = await fetch("http://localhost:5001/users", {
+      const response = await fetch("https://my-json-server.typicode.com/ArtemZotov02/db/users", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
